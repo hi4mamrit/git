@@ -1,8 +1,21 @@
+== First Section
 FIrst it was blank
-
 ->committed  using "git commit"
+->git add README.md helo.txt
 ->git commit -m "initial commit"
 
-==
-NOw I add second line <Now check "git status". IT should say modified>
+== Second  Section
+NOw I add this section to hello.txt <Now check "git status". IT should say modified>
 -> git commit -a -m "new changes" 
+
+== Third Section
+Now I thought , I don't want to track README.md further via GIT.
+-> git rm --cached README.md
+-> touch .gitignore
+-> nano .gitignore
+   type_in ---> README.md
+
+==Third Section  part-2
+NOw I think this part-2 was also needed for third section, which I missed in last commit. I dont want to create a new commit.Make the changes and-
+-> git add hello.txt
+-> git commit --amend --no-edit
