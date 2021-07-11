@@ -1,0 +1,8 @@
+FIrst it was blank
+
+->committed  using "git commit"
+->git commit -m "initial commit"
+
+==
+NOw I add second line <Now check "git status". IT should say modified>
+-> git commit -a -m "new changes" 
