@@ -19,3 +19,11 @@ Now I thought , I don't want to track README.md further via GIT.
 NOw I think this part-2 was also needed for third section, which I missed in last commit. I dont want to create a new commit.Make the changes and-
 -> git add hello.txt
 -> git commit --amend --no-edit
+
+==Fourth Section
+after gitclone, making these changes  and changed from https type to ssh type authentication
+-> git clone https://github.com/hi4mamrit/git.git
+-> git remote set-url origin git@github.com:hi4mamrit/git.git
+-> git remote -v
+-> git commit -a -m "After git pull"
+-> git push origin master
